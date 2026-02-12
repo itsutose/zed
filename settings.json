@@ -1,0 +1,47 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "VSCode Icons for Zed (Dark Angular)",
+  "git_panel": {
+    "tree_view": true,
+  },
+  "terminal": {
+    "cursor_shape": "bar",
+    "copy_on_select": true,
+  },
+  "preview_tabs": {
+    "enabled": true,
+  },
+  "current_line_highlight": "all",
+  "cursor_blink": false,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "show_whitespaces": "all",
+  "soft_wrap": "editor_width",
+  "base_keymap": "Cursor",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark",
+  },
+  "lsp": {
+    "basedpyright": {
+      "settings": {
+        "python": {
+          "pythonPath": ".venv/bin/python",
+        },
+      },
+    },
+  },
+}
