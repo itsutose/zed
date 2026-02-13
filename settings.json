@@ -7,8 +7,37 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "inlay_hints": {
+    "enabled": true
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "always_treat_brackets_as_autoclosed": true,
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "context_servers": {
+    "mcp-server-github": {
+      "enabled": true,
+      "remote": false,
+      "settings": {}
+    }
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "debugger": {
+    "dock": "left"
+  },
   "icon_theme": "VSCode Icons for Zed (Dark Angular)",
   "git_panel": {
+    "dock": "left",
     "tree_view": true,
   },
   "terminal": {
@@ -39,9 +68,20 @@
     "basedpyright": {
       "settings": {
         "python": {
-          "pythonPath": ".venv/bin/python",
-        },
-      },
-    },
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
   },
+  "languages": {
+    "Proto": {
+      "formatter": {
+        "external": {
+          "command": "buf",
+          "arguments": ["format", "-"]
+        }
+      },
+      "format_on_save": "on"
+    }
+  }
 }
