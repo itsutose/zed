@@ -13,6 +13,7 @@
   "outline_panel": {
     "dock": "left",
   },
+  "bottom_dock_layout": "contained",
   "project_panel": {
     "dock": "left",
   },
@@ -46,6 +47,9 @@
   },
   "preview_tabs": {
     "enabled": true,
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": true,
   },
   "current_line_highlight": "all",
   "cursor_blink": false,
