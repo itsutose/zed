@@ -8,17 +8,17 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
   },
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "always_treat_brackets_as_autoclosed": true,
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
   "context_servers": {
     "mcp-server-github": {
@@ -30,10 +30,10 @@
   "agent": {
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "debugger": {
-    "dock": "left"
+    "dock": "left",
   },
   "icon_theme": "VSCode Icons for Zed (Dark Angular)",
   "git_panel": {
@@ -68,20 +68,20 @@
     "basedpyright": {
       "settings": {
         "python": {
-          "pythonPath": ".venv/bin/python"
-        }
-      }
-    }
+          "pythonPath": ".venv/bin/python",
+        },
+      },
+    },
   },
   "languages": {
     "Proto": {
       "formatter": {
         "external": {
           "command": "buf",
-          "arguments": ["format", "-"]
-        }
+          "arguments": ["format", "-"],
+        },
       },
-      "format_on_save": "on"
-    }
-  }
+      "format_on_save": "on",
+    },
+  },
 }
