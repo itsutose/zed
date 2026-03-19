@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "mode": "subtle"
+  },
   "inlay_hints": {
     "enabled": true,
   },
@@ -49,6 +52,12 @@
   },
   "preview_tabs": {
     "enabled": true,
+    "enable_preview_from_project_panel": true,
+    "enable_preview_from_file_finder": true,
+    "enable_preview_from_multibuffer": true,
+    "enable_preview_multibuffer_from_code_navigation": false,
+    "enable_preview_file_from_code_navigation": true,
+    "enable_keep_preview_on_code_navigation": false,
   },
   "tab_bar": {
     "show_pinned_tabs_in_separate_row": true,
@@ -68,13 +77,39 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Ayu Dark",
+    "dark": "Tokyo Night",
   },
   "lsp": {
     "basedpyright": {
       "settings": {
         "python": {
           "pythonPath": ".venv/bin/python",
+        },
+      },
+    },
+    "typescript-language-server": {
+      "settings": {
+        "typescript": {
+          "inlayHints": {
+            "includeInlayParameterNameHints": "all",
+            "includeInlayParameterNameHintsWhenArgumentMatchesName": false,
+            "includeInlayFunctionLikeReturnTypeHints": true,
+            "includeInlayVariableTypeHints": true,
+            "includeInlayPropertyDeclarationTypeHints": true,
+            "includeInlayFunctionParameterTypeHints": true,
+            "includeInlayEnumMemberValueHints": true,
+          },
+        },
+        "javascript": {
+          "inlayHints": {
+            "includeInlayParameterNameHints": "all",
+            "includeInlayParameterNameHintsWhenArgumentMatchesName": false,
+            "includeInlayFunctionLikeReturnTypeHints": true,
+            "includeInlayVariableTypeHints": true,
+            "includeInlayPropertyDeclarationTypeHints": true,
+            "includeInlayFunctionParameterTypeHints": true,
+            "includeInlayEnumMemberValueHints": true,
+          },
         },
       },
     },
@@ -88,6 +123,12 @@
         },
       },
       "format_on_save": "on",
+    },
+    "Markdown": {
+      "soft_wrap": "editor_width"
+    },
+    "Rainbow CSV (,)": {
+      "soft_wrap": "editor_width"
     },
   },
 }

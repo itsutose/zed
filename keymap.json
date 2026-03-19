@@ -34,7 +34,8 @@
     "context": "Editor",
     "bindings": {
       "cmd-shift-k": "assistant::InlineAssist",
-      "shift-delete": "editor::DeleteLine"
+      "shift-delete": "editor::DeleteLine",
+      "cmd-shift-d": "editor::FindAllReferences"
     }
   },
   {
